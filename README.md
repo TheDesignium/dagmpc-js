@@ -1,6 +1,6 @@
 # dagmpc: Algorithm to find a [Minimum Path Cover](https://en.wikipedia.org/wiki/Path_cover) of an arbitary DAG.
 
-dagmpc provides a function which finds a minimum path cover of a DAG. This can't list all answers but find an example. This works on both of browser and node.
+dagmpc provides a function which finds a minimum path cover of a DAG. This can't list all answers but finds an example. This works on both of browser and node.
 
 ## Example Usage
 
