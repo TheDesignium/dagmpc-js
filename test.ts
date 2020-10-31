@@ -66,6 +66,7 @@ describe('minimumPathCover', () => {
           expect(testCase.edges).toContainEqual([path[j-1], path[j]]); // Ensure the path exists.
         }
       }
+      expect(visit).not.toContain(false);
     });
   }
 });
