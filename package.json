@@ -1,7 +1,7 @@
 {
   "name": "@thedesignium/dagmpc",
   "description": "Algorithm to find a [Minimum Path Cover](https://en.wikipedia.org/wiki/Path_cover) of an arbitary DAG.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "module": "index.mjs",
   "types": "index.d.ts",
