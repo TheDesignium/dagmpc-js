@@ -37,7 +37,7 @@ console.log(paths);
 It outputs:
 
 ```
-[ [ [ 1, 0, 3 ], [ 2, 5 ], [ 6, 4 ] ] ]
+[[[1, 0, 3], [2, 5], [6, 4]]]
 ```
 
 This means the calcurated MPC is the 3 paths, `1 -> 0 -> 3`, `2 -> 5` and `6 -> 4`. As figure:
