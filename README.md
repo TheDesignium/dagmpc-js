@@ -52,4 +52,4 @@ npm i @thedesignium/dagmpc
 
 ## Documentation
 
-It is documented as JSDoc so read it through your editor, or read [index.ts](./index.ts) directly.
+It is documented as JSDoc so read it through your editor, or read [index.ts](https://github.com/TheDesignium/dagmpc-js/blob/main/index.ts) directly.
