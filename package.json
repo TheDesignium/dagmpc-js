@@ -1,0 +1,12 @@
+{
+  "name": "@thedesignium/dagmpc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "keywords": ["algorithm"],
+  "author": "acomagu",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
