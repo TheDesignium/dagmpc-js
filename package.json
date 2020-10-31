@@ -1,14 +1,21 @@
 {
   "name": "@thedesignium/dagmpc",
   "description": "Algorithm to find a [Minimum Path Cover](https://en.wikipedia.org/wiki/Path_cover) of an arbitary DAG.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["algorithm", "util", "server", "client", "browser", "node"],
+  "keywords": [
+    "algorithm",
+    "util",
+    "server",
+    "client",
+    "browser",
+    "node"
+  ],
   "author": "acomagu",
   "license": "MIT",
   "devDependencies": {
@@ -23,11 +30,15 @@
   "babel": {
     "env": {
       "test": {
-        "plugins": ["transform-es2015-modules-commonjs"]
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ]
       }
     }
   },
   "jest": {
-    "testMatch": ["**/test.js"]
+    "testMatch": [
+      "**/test.js"
+    ]
   }
 }
