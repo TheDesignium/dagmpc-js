@@ -10,12 +10,12 @@ export function minimumPathCover(n: number, edges: readonly (readonly [from: num
   // DAG
   // Number of nodes: n
   // Edges: edges
-  const inedges = Array(n).fill([]);
-  const outedges = Array(n).fill([]);
+  const inedges: number[][] = Array(n).fill(undefined).map(() => []);
+  const outedges: number[][] = Array(n).fill(undefined).map(() => []);
   for (const edge of edges) {
     if (edge[0] < 0 || edge[0] >= n || edge[1] < 0 || edge[1] >= n) throw new Error(`Invalid edge is passed: ${edge}`);
-    inedges[edge[1]] = [...inedges[edge[1]]!, edge[0]];
-    outedges[edge[0]] = [...outedges[edge[0]]!, edge[1]];
+    inedges[edge[1]].push(edge[0]);
+    outedges[edge[0]].push(edge[1]);
   }
 
   // Minimum Path Cover
