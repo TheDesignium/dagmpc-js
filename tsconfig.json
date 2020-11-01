@@ -8,7 +8,7 @@
     "incremental": true,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "lib": ["esnext", "dom"],
+    "lib": ["esnext"],
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitReturns": true,
